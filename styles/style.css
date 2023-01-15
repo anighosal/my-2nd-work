@@ -86,10 +86,9 @@ nav li {
 
 }
 
-/* -----media query----- */
-@media only screen and (max-width:668px) {}
 
-/* -------main------- */
+
+
 main {
     background-color: #FFFFFF;
 }
@@ -302,8 +301,8 @@ section {
 }
 
 .logo-box {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 
     border: 1px solid #FF900E;
     border-radius: 8px;
@@ -314,10 +313,12 @@ section {
 
 }
 
-.logo-box img {
-    align-items: center;
+.box {
     text-align: center;
+    align-items: center;
 }
+
+
 
 .num {
     color: #424242;
@@ -329,9 +330,6 @@ section {
     color: #727272;
     font-weight: 600;
     font-size: 20px;
-    margin-bottom: 60px;
-
-
 }
 
 .sponsor {
@@ -354,18 +352,44 @@ section {
 }
 
 .sponsors {
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
-    align-items: center;
+    gap: 150px;
 }
+
+.web-img {
+    width: 100px;
+    height: 50px;
+    color: #727272;
+}
+
+
+
+.developer {
+    background-color: #131313;
+    border-radius: 8px;
+    margin: 0 200px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.developer-title {
+    color: #FFF4E7;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.developer-des {
+    color: #FFF4E7;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
 
 .footer {
     background-color: #FFF4E7;
     border-radius: 8px;
-    /* margin: 130px 240px; */
-    /* padding: 38px 490px; */
-    /* margin-left: 240px;
-    margin-right: 240px; */
     margin: 0 240px;
 }
 
@@ -376,3 +400,53 @@ section {
 
 
 }
+
+/* --------media quiry----
+------mobile devices---- */
+@media only screen and (max-width: 668px) {
+
+    .developer {
+        background-color: #131313;
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .footer {
+        width: 100%;
+        align-items: center;
+         margin: 0 auto 
+    }
+    .footer-title, .sponsor{
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+    .logo-box {
+       
+    text-align: center;
+    align-items: center;
+
+}
+.logo-img{
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    column-gap: 10px;
+    text-align: center;
+    align-items: center;
+    border: 0;
+    border-radius: 0;
+   
+   
+}
+
+
+
+
+
+
+
+
+}
+
