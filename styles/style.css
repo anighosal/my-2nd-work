@@ -183,6 +183,9 @@ section {
 .fa-regular fa-pipe{
    color: #FF900E;
 } */
+/* .fab fa-head-vr{
+    border: 7px height solid orange;
+} */
 
 .architect-title {
     color: #131313;
@@ -190,12 +193,8 @@ section {
     font-weight: 700;
     margin-bottom: 24px;
     margin-left: 266px;
-    border: 7px height solid orange;
-    
-
-
-
-}
+    border-left: 10px solid orange;
+    }
 
 .architect-des {
     color: #727272;
