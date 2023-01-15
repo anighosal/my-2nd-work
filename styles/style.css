@@ -179,10 +179,10 @@ section {
 
     align-items: center
 }
-
+/* 
 .fa-regular fa-pipe{
    color: #FF900E;
-}
+} */
 
 .architect-title {
     color: #131313;
@@ -190,7 +190,8 @@ section {
     font-weight: 700;
     margin-bottom: 24px;
     margin-left: 266px;
-    border-left: 3px solid orange; 
+    border: 7px height solid orange;
+    
 
 
 
