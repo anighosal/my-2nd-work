@@ -49,10 +49,13 @@ nav li {
 }
 
 .brand {
-    justify-content: center;
-    /* text-align: center; */
+     justify-content: center;
+    text-align: center;
     align-items: center;
-    /* padding: 100px 240px; */
+    padding: 100px 240px;
+}
+.brand img{
+    width: 100%;
 }
 
 .brand-title {
@@ -81,7 +84,7 @@ nav li {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
 
 }
@@ -228,6 +231,7 @@ section {
     color: #131313;
     font-weight: 600;
     font-size: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -591,6 +595,10 @@ section {
         /* margin-right: auto; */
         width: 50%;
     }
+    .brand{
+        padding: 10px ;
+       
+    }
     .ex-btn{
         justify-content:center;
         align-self: center;
@@ -604,6 +612,13 @@ section {
         font-size: 20px;
         padding: 10px 20px;
     }
+    .header {
+        background-color: rgba(255, 144, 14, 0.1);
+        width: 100%;
+        align-items: center;
+        
+    }
+    
 
 
 
