@@ -99,34 +99,43 @@ section {
 }
 
 .image {
+    padding: 85px 300px;
 
-    display: flex;
-    text-align: justify;
 
 }
 
-.img {
-    padding: 287px 400px;
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 73px;
+}
+
+
+
+
+.img-size {
+    width: 200px;
+    height: 200px;
 }
 
 .img-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-    padding: 85px 301px;
-
+    gap: 10px;
+    row-gap: 24px;
+    padding: 0;
 }
 
-.img-box {
-    width: 40%;
-}
+
+
 
 
 .img-title {
     color: #727272;
     font-weight: 700;
     font-size: 45px;
-    text-align: left;
+
 }
 
 .img-description {
@@ -139,20 +148,37 @@ section {
 
 }
 
+.ass {
+    font-size: 45px;
+    font-weight: 500;
+    color: #727272;
+
+
+}
+
 .black {
 
     color: #131313;
+    font-weight: 700;
+    font-size: 45px;
 
 }
 
 .orange {
     color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sec-architect {
+    margin: 0 40px;
 }
 
 .architect {
     display: flex;
-    gap: 54px;
-    justify-content: center;
+    gap: 40px;
+
+    align-items: center
 }
 
 .architect-title {
@@ -161,6 +187,8 @@ section {
     font-weight: 700;
     margin-bottom: 24px;
     margin-left: 266px;
+    border-left: 3px solid orange;
+
 
 }
 
@@ -196,6 +224,7 @@ section {
     color: #131313;
     font-weight: 600;
     font-size: 20px;
+
 }
 
 .title-description {
@@ -206,15 +235,18 @@ section {
 
 }
 
-.architect img {
-    width: 70%;
-    height: 100%;
+.architect-img {
+    width: 500px;
+    height: 700px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-right: 240px;
 }
 
 .ex-btn {
-    margin-left: 800px;
+    margin-left: 750px;
 
-    margin-top: -100px;
+    margin-top: -150px;
 }
 
 .year {
@@ -230,6 +262,13 @@ section {
     color: #FFFFFF;
     margin-top: -30px;
     margin-left: 50px;
+}
+
+.normal {
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 /* -----------some facts--------- */
@@ -258,23 +297,24 @@ section {
 .logo-img {
     display: flex;
     justify-content: space-between;
-     padding: 50px 250px;
-    
+    padding: 50px 250px;
+
 }
 
 .logo-box {
     width: 200px;
-     height: 200px; 
-    
+    height: 200px;
+
     border: 1px solid #FF900E;
     border-radius: 8px;
-    padding:30px 10px; 
+    padding: 30px 10px;
     text-align: center;
-   
+
 
 
 }
-.logo-box img{
+
+.logo-box img {
     align-items: center;
     text-align: center;
 }
@@ -294,15 +334,17 @@ section {
 
 }
 
-.sponsor{
-     text-align: center;
+.sponsor {
+    text-align: center;
 }
-.sponsor-title{
+
+.sponsor-title {
     font-weight: 700;
     font-size: 45px;
     margin-bottom: 24px;
 }
-.sponsor-des{
+
+.sponsor-des {
     color: #727272;
     font-weight: 400;
     font-size: 16px;
@@ -310,13 +352,15 @@ section {
 
 
 }
-.sponsors{
+
+.sponsors {
     justify-content: space-between;
     text-align: center;
     align-items: center;
 }
-.footer{
-    background-color:#FFF4E7;
+
+.footer {
+    background-color: #FFF4E7;
     border-radius: 8px;
     /* margin: 130px 240px; */
     /* padding: 38px 490px; */
@@ -324,10 +368,11 @@ section {
     margin-right: 240px; */
     margin: 0 240px;
 }
-.footer-title{
+
+.footer-title {
     text-align: center;
     align-items: center;
     padding: 20px 200px;
-    
-    
+
+
 }
